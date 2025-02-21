@@ -1,6 +1,100 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//STL
+//// Rotate Functions
+// void rotateLeft(vi &v, int k) {
+//     rotate(v.begin(), v.begin() + (k % v.size()), v.end());
+// }
+
+// void rotateRight(vi &v, int k) {
+//     rotate(v.begin(), v.end() - (k % v.size()), v.end());
+// }
+
+// // Contains Function
+// bool contains(vi &v, int x) {
+//     return find(all(v), x) != v.end();
+// }
+
+// bool contains(string &s, char c) {
+//     return s.find(c) != string::npos;
+// }
+
+// bool contains(string &s, string sub) {
+//     return s.find(sub) != string::npos;
+// }
+
+// //  Bitwise Operations
+// bool isPowerOfTwo(int x) { return (x > 0) && ((x & (x - 1)) == 0); }
+// int countSetBits(int x) { return __builtin_popcountll(x); }
+// int highestPowerOfTwo(int x) { return x ? (1LL << (63 - __builtin_clzll(x))) : 0; }
+// int lowestSetBit(int x) { return x & -x; }
+// int toggleBit(int x, int pos) { return x ^ (1LL << pos); }
+// bool checkBit(int x, int pos) { return (x & (1LL << pos)) != 0; }
+// int setBit(int x, int pos) { return x | (1LL << pos); }
+// int clearBit(int x, int pos) { return x & ~(1LL << pos); }
+
+// // STL Data Structures
+// void STLExamples() {
+//     // Vector
+//     vi v = {5, 2, 8, 1};
+//     sort(all(v));
+//     reverse(all(v));
+//     v.pb(10);
+//     v.erase(v.begin() + 1);
+    
+//     // Rotate Examples
+//     rotateLeft(v, 2);
+//     rotateRight(v, 2);
+    
+//     // Check if contains element
+//     if (contains(v, 5)) cout << "Vector contains 5\n";
+    
+//     // String
+//     string s1 = "hello world";
+//     reverse(all(s1));
+
+//     if (contains(s1, 'o')) cout << "String contains 'o'\n";
+//     if (contains(s1, "world")) cout << "String contains 'world'\n";
+
+//     // Pair
+//     pii p = {1, 5};
+//     vpi vp = {{1, 2}, {3, 4}};
+    
+//     // Set
+//     set<int> s = {5, 2, 8, 1};
+//     s.insert(3);
+//     s.erase(2);
+    
+//     // Map
+//     map<int, string> mp;
+//     mp[1] = "Alice";
+//     mp[2] = "Bob";
+
+//     // Priority Queue (Max-Heap)
+//     priority_queue<int> pq;
+//     pq.push(3);
+//     pq.push(10);
+//     pq.push(1);
+    
+//     // Min-Heap
+//     priority_queue<int, vector<int>, greater<int>> minHeap;
+    
+//     // Stack
+//     stack<int> st;
+//     st.push(1);
+//     st.push(2);
+    
+//     // Queue
+//     queue<int> q;
+//     q.push(1);
+//     q.push(2);
+    
+//     // Deque
+//     deque<int> dq;
+//     dq.push_front(5);
+//     dq.push_back(10);
+
 // Shortcuts
 #define int long long
 #define pb push_back
