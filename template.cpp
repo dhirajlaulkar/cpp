@@ -95,6 +95,12 @@ using namespace std;
 //     dq.push_front(5);
 //     dq.push_back(10);
 
+ // auto it = std::find(vec.begin(), vec.end(), 30);
+ //    if (it != vec.end()) {
+ //        int index = std::distance(vec.begin(), it);
+ //        std::cout << "Found 30 at index: " << index << std::endl;
+ //    }
+
 // Shortcuts
 #define int long long
 #define pb push_back
